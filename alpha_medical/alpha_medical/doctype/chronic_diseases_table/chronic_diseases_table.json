@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-14 20:29:07.133418",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "disease",
+  "option",
+  "since",
+  "on",
+  "complication"
+ ],
+ "fields": [
+  {
+   "fieldname": "disease",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Disease"
+  },
+  {
+   "fieldname": "option",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Option",
+   "options": "Negative\nPositive"
+  },
+  {
+   "fieldname": "since",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Since"
+  },
+  {
+   "fieldname": "on",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "on"
+  },
+  {
+   "fieldname": "complication",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Complication",
+   "options": "Without Complication\nWith Complication"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-14 20:37:36.359568",
+ "modified_by": "Administrator",
+ "module": "Alpha Medical",
+ "name": "Chronic Diseases Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

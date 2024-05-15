@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-14 20:40:46.364922",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "questions",
+  "option",
+  "note"
+ ],
+ "fields": [
+  {
+   "fieldname": "option",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Option",
+   "options": "Negative\nPositive"
+  },
+  {
+   "fieldname": "note",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Note"
+  },
+  {
+   "fieldname": "questions",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Questions"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-14 20:41:59.270473",
+ "modified_by": "Administrator",
+ "module": "Alpha Medical",
+ "name": "Past History Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-14 18:31:48.533586",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "type",
+  "how_much",
+  "how_many",
+  "index_num",
+  "index_grade"
+ ],
+ "fields": [
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type",
+   "options": "\nCigarette smoker\nHubbly Bubbly Smoker\nKhat Chewer\nShamma User\nAlcoholic\nDrugs User"
+  },
+  {
+   "fieldname": "how_many",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "How many?",
+   "reqd": 1
+  },
+  {
+   "fieldname": "index_num",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Index num",
+   "read_only": 1
+  },
+  {
+   "fieldname": "index_grade",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Index grade",
+   "options": "\nlight\nModerated\nHeavy",
+   "read_only": 1
+  },
+  {
+   "fieldname": "how_much",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "How much?",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-14 19:10:06.712504",
+ "modified_by": "Administrator",
+ "module": "Alpha Medical",
+ "name": "Special Habits Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

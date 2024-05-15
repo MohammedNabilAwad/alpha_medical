@@ -69,6 +69,8 @@ app_license = "mit"
 
 # before_install = "alpha_medical.install.before_install"
 # after_install = "alpha_medical.install.after_install"
+after_app_install = "alpha_medical.install.after_app_install"
+after_migrate= "alpha_medical.install.after_app_install"
 
 # Uninstallation
 # ------------
