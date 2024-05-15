@@ -1,17 +1,24 @@
 def patient():
 
     return [
+# =====================Patient History===============================
         {
-            "fieldname": "patient_history",
+            "fieldname": "patient_history_tab",
             "fieldtype": "Tab Break",
             "label": "Patient History",
             "insert_after": "patient_details",
         },
         {
+            "fieldname": "patient_history_section",
+            "fieldtype": "Section Break",
+            "label": "Patient History",
+            "insert_after": "patient_history_tab",
+        },
+        {
             "fieldname": "offspring",
             "fieldtype": "Int",
             "label": "Offspring",
-            "insert_after": "patient_history",
+            "insert_after": "patient_history_section",
             "ignore_user_permissions": 1,
         },
         {
@@ -23,11 +30,16 @@ def patient():
             "ignore_user_permissions": 1,
         },
         {
+            "fieldname": "custom_column_break_1",
+            "fieldtype": "Column Break",
+            "insert_after": "special_habits_table",
+        },
+        {
             "fieldname": "handedness",
             "fieldtype": "Select",
             "label": "Handedness",
             "options": "\nLeft Handedness\nRight Handedness",
-            "insert_after": "special_habits_table",
+            "insert_after": "custom_column_break_1",
             "ignore_user_permissions": 1,
         },
         {
@@ -53,24 +65,44 @@ def patient():
             "ignore_user_permissions": 1,
         },
         {
+            "fieldname": "analysis_section",
+            "fieldtype": "Section Break",
+            "label": "Analysis",
+            "insert_after": "since",
+        },
+        {
             "fieldname": "analysis_chief_complaint",
             "fieldtype": "Text Editor",
             "label": "Analysis of Chief Complaint",
-            "insert_after": "since",
+            "insert_after": "analysis_section",
             "ignore_user_permissions": 1,
         },
+# =====================Involved system analysis===============================
         {
-            "fieldname": "involved_system_analysis",
+            "fieldname": "involved_system_analysis_tab",
             "fieldtype": "Tab Break",
             "label": "Involved system analysis",
             "insert_after": "analysis_chief_complaint",
+        },
+        {
+            "fieldname": "cardiovascular_System_section",
+            "fieldtype": "Section Break",
+            "label": "Cardiovascular",
+            "insert_after": "involved_system_analysis_tab",
         },
         {
             "fieldname": "cardiovascular_System",
             "fieldtype": "Table",
             "label": "Cardiovascular System",
             "options": "Cardiovascular System Table",
-            "insert_after": "involved_system_analysis",
+            "insert_after": "cardiovascular_System_section",
+            "ignore_user_permissions": 1,
+        },
+        {
+            "fieldname": "review_of_other_system_section",
+            "fieldtype": "Section Break",
+            "label": "Review",
+            "insert_after": "cardiovascular_System_section",
             "ignore_user_permissions": 1,
         },
         {
@@ -78,7 +110,14 @@ def patient():
             "fieldtype": "Table",
             "label": "Review of other system",
             "options": "Review of other system Table",
-            "insert_after": "cardiovascular_System",
+            "insert_after": "review_of_other_system_section",
+            "ignore_user_permissions": 1,
+        },
+        {
+            "fieldname": "chronic_diseases_section",
+            "fieldtype": "Section Break",
+            "label": "Diseases",
+            "insert_after": "review_of_other_system",
             "ignore_user_permissions": 1,
         },
         {
@@ -86,35 +125,44 @@ def patient():
             "fieldtype": "Table",
             "label": "Chronic Diseases",
             "options": "Chronic Diseases Table",
-            "insert_after": "review_of_other_system",
+            "insert_after": "chronic_diseases_section",
             "ignore_user_permissions": 1,
         },
+# =====================Past & Family Histories===============================
         {
-            "fieldname": "past_history_tab",
+            "fieldname": "past_and_family_histories_tab",
             "fieldtype": "Tab Break",
-            "label": "Past History",
+            "label": "Past & Family Histories",
             "insert_after": "chronic_diseases",
+        },
+        {
+            "fieldname": "past_history_section",
+            "fieldtype": "Section Break",
+            "label": "Past",
+            "insert_after": "past_and_family_histories_tab",
+            "ignore_user_permissions": 1,
         },
         {
             "fieldname": "past_history",
             "fieldtype": "Table",
             "label": "Past History",
             "options": "Past History Table",
-            "insert_after": "past_history_tab",
+            "insert_after": "past_history_section",
             "ignore_user_permissions": 1,
         },
         {
-            "fieldname": "family_history_tab",
-            "fieldtype": "Tab Break",
-            "label": "Family History",
+            "fieldname": "family_history_section",
+            "fieldtype": "Section Break",
+            "label": "Family",
             "insert_after": "past_history",
+            "ignore_user_permissions": 1,
         },
         {
             "fieldname": "family_history",
             "fieldtype": "Table",
             "label": "Family History",
             "options": "Family History Table",
-            "insert_after": "family_history_tab",
+            "insert_after": "family_history_section",
             "ignore_user_permissions": 1,
         },
     ]
