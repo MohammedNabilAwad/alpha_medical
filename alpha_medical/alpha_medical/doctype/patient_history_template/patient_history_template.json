@@ -1,0 +1,120 @@
+{
+ "actions": [],
+ "creation": "2024-05-15 22:27:35.416357",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "involved_system_analysis_tab",
+  "cardiovascular_section",
+  "cardiovascular_system",
+  "review_section",
+  "review_of_other_system",
+  "diseases_section",
+  "chronic_diseases",
+  "past_and_family_histories",
+  "past_section",
+  "past_history",
+  "family_section",
+  "family_history"
+ ],
+ "fields": [
+  {
+   "fieldname": "involved_system_analysis_tab",
+   "fieldtype": "Tab Break",
+   "label": "Involved system analysis"
+  },
+  {
+   "fieldname": "cardiovascular_section",
+   "fieldtype": "Section Break",
+   "label": "Cardiovascular"
+  },
+  {
+   "fieldname": "cardiovascular_system",
+   "fieldtype": "Table",
+   "label": "Cardiovascular System",
+   "options": "Cardiovascular System Table"
+  },
+  {
+   "fieldname": "review_section",
+   "fieldtype": "Section Break",
+   "label": "Review"
+  },
+  {
+   "fieldname": "review_of_other_system",
+   "fieldtype": "Table",
+   "label": "Review of other system",
+   "options": "Review of other system Table"
+  },
+  {
+   "fieldname": "diseases_section",
+   "fieldtype": "Section Break",
+   "label": "Diseases"
+  },
+  {
+   "fieldname": "chronic_diseases",
+   "fieldtype": "Table",
+   "label": "Chronic Diseases",
+   "options": "Chronic Diseases Table"
+  },
+  {
+   "fieldname": "past_and_family_histories",
+   "fieldtype": "Tab Break",
+   "label": "Past & Family Histories"
+  },
+  {
+   "fieldname": "past_section",
+   "fieldtype": "Section Break",
+   "label": "Past"
+  },
+  {
+   "fieldname": "past_history",
+   "fieldtype": "Table",
+   "label": "Past History",
+   "options": "Past History Table"
+  },
+  {
+   "fieldname": "family_section",
+   "fieldtype": "Section Break",
+   "label": "Family"
+  },
+  {
+   "fieldname": "family_history",
+   "fieldtype": "Table",
+   "label": "Family History",
+   "options": "Family History Table"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-05-15 22:48:58.632265",
+ "modified_by": "Administrator",
+ "module": "Alpha Medical",
+ "name": "Patient History Template",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Healthcare Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

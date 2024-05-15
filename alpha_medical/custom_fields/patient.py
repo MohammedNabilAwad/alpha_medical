@@ -47,6 +47,7 @@ def patient():
             "fieldtype": "Data",
             "label": "Source of Informaion",
             "insert_after": "handedness",
+            "default": "Patient",
             "ignore_user_permissions": 1,
         },
         {
