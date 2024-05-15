@@ -10,7 +10,10 @@ def after_app_install(app_name):
 
 
 def get_custom_fields():
-    patient()
+    return {
+        "Patient": patient(),
+    }
+
 
 def before_uninstall():
     delete_custom_fields(get_custom_fields())
