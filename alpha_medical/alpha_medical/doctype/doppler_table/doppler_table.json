@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-07 20:22:57.254537",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "valve",
+  "thickining",
+  "normal_ms",
+  "areacm2",
+  "cusp_sepmm",
+  "comment"
+ ],
+ "fields": [
+  {
+   "fieldname": "valve",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "valve",
+   "options": "Mitral Valve\naortic valve\ntricuspid valve\npulmonary valve"
+  },
+  {
+   "fieldname": "thickining",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "veocity m/s"
+  },
+  {
+   "fieldname": "areacm2",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "gradient mmhg"
+  },
+  {
+   "fieldname": "cusp_sepmm",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "area pl/2t/cm2"
+  },
+  {
+   "fieldname": "comment",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "backward f1"
+  },
+  {
+   "fieldname": "normal_ms",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "normal m/s"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-07 20:25:08.677576",
+ "modified_by": "Administrator",
+ "module": "Alpha Medical",
+ "name": "Doppler Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,449 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-06 19:45:41.972977",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "h_section",
+  "column_break_cwmk",
+  "department",
+  "unite_no",
+  "rome_no",
+  "bed_no",
+  "column_break_yfil",
+  "doa",
+  "date",
+  "day",
+  "time",
+  "column_break_tool",
+  "pt_name",
+  "age",
+  "sex",
+  "file_no",
+  "diagnosis",
+  "dimensions_section",
+  "normalmm_column",
+  "16_40",
+  "data_xzej",
+  "data_oqyp",
+  "data_qiat",
+  "data_zkce",
+  "data_ubyn",
+  "data_pter",
+  "data_jegk",
+  "data_stzn",
+  "data_rfum",
+  "0",
+  "column_break_mxaz",
+  "data_ifry",
+  "data_iqie",
+  "data_nsox",
+  "data_kbnf",
+  "data_dbhs",
+  "data_avyq",
+  "data_zqjj",
+  "data_joah",
+  "data_qzam",
+  "data_xesf",
+  "data_bksl",
+  "column_break_qkhj",
+  "la",
+  "ao",
+  "lvesd",
+  "lvedd",
+  "ivs",
+  "lvpw",
+  "ef",
+  "fs",
+  "rv",
+  "pe",
+  "lvma",
+  "valve_section",
+  "valve_2d",
+  "doppler_section",
+  "doppler",
+  "section_break_veep",
+  "lvsegmental_w_motions",
+  "comments_section",
+  "hypertensive_heart_disease_ihd_cva"
+ ],
+ "fields": [
+  {
+   "bold": 1,
+   "fieldname": "dimensions_section",
+   "fieldtype": "Section Break",
+   "label": "DIMENSIONS"
+  },
+  {
+   "bold": 1,
+   "default": "16_40",
+   "fieldname": "16_40",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": "20_37",
+   "fieldname": "data_xzej",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": "25_40",
+   "fieldname": "data_oqyp",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": "38_56",
+   "fieldname": "data_qiat",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": "7_11",
+   "fieldname": "data_zkce",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": "7_11",
+   "fieldname": "data_ubyn",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": ">50%",
+   "fieldname": "data_pter",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": "25_45%",
+   "fieldname": "data_jegk",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": "22_27",
+   "fieldname": "data_stzn",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": "<10",
+   "fieldname": "data_rfum",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "column_break_mxaz",
+   "fieldtype": "Column Break",
+   "label": "Pt Value"
+  },
+  {
+   "fieldname": "data_ifry",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_nsox",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_kbnf",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_dbhs",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_avyq",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_zqjj",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_joah",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_qzam",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_xesf",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_bksl",
+   "fieldtype": "Data"
+  },
+  {
+   "bold": 1,
+   "fieldname": "column_break_qkhj",
+   "fieldtype": "Column Break",
+   "label": "site"
+  },
+  {
+   "bold": 1,
+   "default": "LA",
+   "fieldname": "la",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": "AO",
+   "fieldname": "ao",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": "LVESD",
+   "fieldname": "lvesd",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": "LVEDD",
+   "fieldname": "lvedd",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": "IVS",
+   "fieldname": "ivs",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": "LVPW",
+   "fieldname": "lvpw",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": "EF",
+   "fieldname": "ef",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": "FS",
+   "fieldname": "fs",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": "RV",
+   "fieldname": "rv",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": "PE",
+   "fieldname": "pe",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": "Lvma",
+   "fieldname": "lvma",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "default": "0",
+   "fieldname": "0",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "normalmm_column",
+   "fieldtype": "Column Break",
+   "label": "Normal/mm"
+  },
+  {
+   "fieldname": "data_iqie",
+   "fieldtype": "Data"
+  },
+  {
+   "bold": 1,
+   "fieldname": "valve_section",
+   "fieldtype": "Section Break",
+   "label": "Valve -2D "
+  },
+  {
+   "bold": 1,
+   "fieldname": "doppler_section",
+   "fieldtype": "Section Break",
+   "label": "DOPPLER"
+  },
+  {
+   "bold": 1,
+   "fieldname": "section_break_veep",
+   "fieldtype": "Section Break",
+   "label": "LV.Segmental W. Motions"
+  },
+  {
+   "bold": 1,
+   "fieldname": "comments_section",
+   "fieldtype": "Section Break",
+   "label": "COMMENTS"
+  },
+  {
+   "fieldname": "hypertensive_heart_disease_ihd_cva",
+   "fieldtype": "Text Editor",
+   "label": "HYPERTENSIVE HEART DISEASE IHD CVA"
+  },
+  {
+   "fieldname": "column_break_cwmk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Float",
+   "label": "DEPARTMENT"
+  },
+  {
+   "fieldname": "unite_no",
+   "fieldtype": "Data",
+   "label": "UNITE NO"
+  },
+  {
+   "fieldname": "rome_no",
+   "fieldtype": "Float",
+   "label": "ROME NO"
+  },
+  {
+   "fieldname": "bed_no",
+   "fieldtype": "Data",
+   "label": "BED NO"
+  },
+  {
+   "fieldname": "column_break_yfil",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "doa",
+   "fieldtype": "Date",
+   "label": "D.O.A "
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "DATE"
+  },
+  {
+   "fieldname": "day",
+   "fieldtype": "Data",
+   "label": "DAY"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Duration",
+   "label": "TIME"
+  },
+  {
+   "fieldname": "column_break_tool",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pt_name",
+   "fieldtype": "Data",
+   "label": "PT NAME"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Float",
+   "label": "AGE"
+  },
+  {
+   "fieldname": "sex",
+   "fieldtype": "Data",
+   "label": "SEX",
+   "max_height": "100px"
+  },
+  {
+   "fieldname": "file_no",
+   "fieldtype": "Data",
+   "label": "FILE NO "
+  },
+  {
+   "fieldname": "diagnosis",
+   "fieldtype": "Data",
+   "label": "DIAGNOSIS"
+  },
+  {
+   "fieldname": "h_section",
+   "fieldtype": "Section Break",
+   "label": "Petiont INF"
+  },
+  {
+   "fieldname": "valve_2d",
+   "fieldtype": "Table",
+   "label": "Valve 2D",
+   "options": "Valve -2D Table"
+  },
+  {
+   "fieldname": "doppler",
+   "fieldtype": "Table",
+   "label": "Doppler",
+   "options": "Doppler Table"
+  },
+  {
+   "fieldname": "lvsegmental_w_motions",
+   "fieldtype": "Table",
+   "label": "LV.Segmental W. Motions",
+   "options": "Iv Segmental Motions Table"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-07 20:32:59.223599",
+ "modified_by": "Administrator",
+ "module": "Alpha Medical",
+ "name": "ECHOGARDIOGRAPHY",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

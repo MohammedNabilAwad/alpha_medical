@@ -4,6 +4,8 @@ app_publisher = "mohammed nabil"
 app_description = "Description alphaCode test"
 app_email = "mohammed.n.awadh@gmail.com"
 app_license = "mit"
+fixtures = ["Patient", "Patient Encounter"]
+
 # required_apps = []
 
 # Includes in <head>
@@ -69,8 +71,8 @@ app_license = "mit"
 
 # before_install = "alpha_medical.install.before_install"
 # after_install = "alpha_medical.install.after_install"
-after_app_install = "alpha_medical.install.after_app_install"
-after_migrate= "alpha_medical.install.after_app_install"
+# after_app_install = "alpha_medical.install.after_app_install"
+# after_migrate= "alpha_medical.install.after_app_install"
 
 # Uninstallation
 # ------------

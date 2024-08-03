@@ -1,0 +1,808 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-09 17:12:47.734733",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "local_examination_2_tab",
+  "heart_sounds_normal_heart_sounds_section",
+  "first_heart_sound_site",
+  "first_heart_sound_intensity",
+  "secound_heart_sound_site",
+  "secound_heart_sound_intensity",
+  "secound_heart_sound_splitting",
+  "column_break_akor",
+  "notes_f_s",
+  "notes_f_i",
+  "notes_s_s",
+  "notes_s_i",
+  "notes_s_h_s",
+  "heart_sounds_abnormal_heart_sounds_section",
+  "third_heart_sound",
+  "fourth_heart_sound",
+  "opening_snap",
+  "ejection_click",
+  "mid_systolic_click",
+  "metalic_click",
+  "pericardial_knok",
+  "tumour_plop",
+  "triple_rhythm",
+  "quadriple_rhythm",
+  "gallop",
+  "summation_gallop",
+  "column_break_tppb",
+  "notes_t_s",
+  "notes_f_h_s",
+  "notes_o_s",
+  "notes_e_c",
+  "notes_m_s_c",
+  "notes_m_c",
+  "notes_p_k",
+  "notes_t_p",
+  "notes_t_r",
+  "notes_q_r",
+  "notes_gallop",
+  "notes_s_g",
+  "murmurs_section",
+  "type_of_murmur",
+  "site_of_maximal_intensity",
+  "site_of_main_propagation",
+  "character",
+  "timing",
+  "duration",
+  "column_break_aeku",
+  "grade",
+  "relation_to_respiration",
+  "relation_to_posture",
+  "relation_to_exercise",
+  "associated_trill",
+  "additional_sounds_section",
+  "venaus_hum",
+  "arterial_bruit",
+  "column_break_lrto",
+  "percardial_rub",
+  "mediastinal_crunch",
+  "general_examination_tab",
+  "head_section",
+  "face",
+  "complexion",
+  "eyes",
+  "nose",
+  "mouth",
+  "ears",
+  "column_break_ubdx",
+  "notes_face",
+  "notes_complexion",
+  "notes_eyes",
+  "notes_nose",
+  "notes_mouth",
+  "notes_ears",
+  "neck_section",
+  "dilated_viens",
+  "carotid_artery",
+  "thyroidectomy_scar",
+  "overacting_of_accessory_muscles",
+  "column_break_jmgm",
+  "notes_d_v",
+  "notes_c_a",
+  "notes_t_scar",
+  "notes_o_m",
+  "chest_section",
+  "bibasal_cripitation",
+  "cor_pulmonale",
+  "gynecomastia",
+  "column_break_uvln",
+  "notes_b_c",
+  "notes_c_p",
+  "notes_gy",
+  "abdomen_section",
+  "hepatomegaly",
+  "splenomegaly",
+  "ascites",
+  "column_break_ezfu",
+  "notes_h",
+  "notes_s_p",
+  "notes_ascites",
+  "upper_limbs_section",
+  "clubbing",
+  "sc_nodule",
+  "splinter_hemorrhage",
+  "osler_nodule",
+  "janway_nodule",
+  "column_break_xkwb",
+  "notes_c",
+  "notes_s_c_n",
+  "notes_s_h",
+  "notes_o_n",
+  "notes_j_n",
+  "lower_limbs_section",
+  "bilateral_pitting_ll_edema",
+  "tender_calf_swelling",
+  "varicose_vein",
+  "ischemic_signs",
+  "column_break_fczq",
+  "notes_b_e",
+  "notes_t_c_s",
+  "notes_v_v",
+  "notes_i_s"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_heart_sound_site",
+   "fieldtype": "Select",
+   "label": "First Heart Sound Site",
+   "options": "\nApex & Tricuspid area\nOutside Normal Site\nInside Normal Site"
+  },
+  {
+   "fieldname": "first_heart_sound_intensity",
+   "fieldtype": "Select",
+   "label": "First Heart Sound Intensity",
+   "options": "\nNormal\nAccentuated\nMuffled\nVariable"
+  },
+  {
+   "fieldname": "secound_heart_sound_site",
+   "fieldtype": "Select",
+   "label": "Secound Heart Sound Site",
+   "options": "\nPulmonary & Aortic area\nOutside Normal Site\nInside Normal Site"
+  },
+  {
+   "fieldname": "secound_heart_sound_intensity",
+   "fieldtype": "Select",
+   "label": "Secound Heart Sound Intensity",
+   "options": "\nNormal\nAccentuated\nMuffled\nVariable"
+  },
+  {
+   "fieldname": "secound_heart_sound_splitting",
+   "fieldtype": "Select",
+   "label": "Secound Heart Sound Splitting",
+   "options": "\nNormal Splitting\nWide Splitting\nReversed Splitting\nClose Splitting\nSingle Second Sound"
+  },
+  {
+   "fieldname": "heart_sounds_abnormal_heart_sounds_section",
+   "fieldtype": "Section Break",
+   "label": "Heart Sounds (Abnormal Heart Sounds)"
+  },
+  {
+   "fieldname": "third_heart_sound",
+   "fieldtype": "Select",
+   "label": "Third Heart Sound",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "fourth_heart_sound",
+   "fieldtype": "Select",
+   "label": "Fourth Heart Sound",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "opening_snap",
+   "fieldtype": "Select",
+   "label": "Opening Snap",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "ejection_click",
+   "fieldtype": "Select",
+   "label": "Ejection Click",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "heart_sounds_normal_heart_sounds_section",
+   "fieldtype": "Section Break",
+   "label": "Heart Sounds (Normal Heart Sounds)"
+  },
+  {
+   "fieldname": "mid_systolic_click",
+   "fieldtype": "Select",
+   "label": "Mid. Systolic Click",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "metalic_click",
+   "fieldtype": "Select",
+   "label": "Metalic Click",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "pericardial_knok",
+   "fieldtype": "Select",
+   "label": "Pericardial Knok",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "tumour_plop",
+   "fieldtype": "Select",
+   "label": "Tumour Plop",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "triple_rhythm",
+   "fieldtype": "Select",
+   "label": "Triple Rhythm",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "quadriple_rhythm",
+   "fieldtype": "Select",
+   "label": "Quadriple Rhythm",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "gallop",
+   "fieldtype": "Select",
+   "label": "Gallop",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "summation_gallop",
+   "fieldtype": "Select",
+   "label": "Summation Gallop",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "column_break_akor",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "notes_f_s",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_f_i",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_s_s",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_s_i",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_s_h_s",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "column_break_tppb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "notes_t_s",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_f_h_s",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_o_s",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_e_c",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_m_s_c",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_m_c",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_p_k",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_t_p",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_t_r",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_q_r",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_gallop",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_s_g",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "murmurs_section",
+   "fieldtype": "Section Break",
+   "label": "Murmurs"
+  },
+  {
+   "fieldname": "type_of_murmur",
+   "fieldtype": "Select",
+   "label": "Type Of Murmur",
+   "options": "\nOrganic Murmur\nFunctional Murmur\nInnocent Murmur"
+  },
+  {
+   "fieldname": "site_of_maximal_intensity",
+   "fieldtype": "Select",
+   "label": "Site Of Maximal Intensity",
+   "options": "\nApex\nTricuspid area\nAortic area\nPulmonary area\nLeft Parasternal\nLeft Infraclavicular"
+  },
+  {
+   "fieldname": "site_of_main_propagation",
+   "fieldtype": "Select",
+   "label": "Site Of Main Propagation",
+   "options": "\nNot Propagated\nAxilla\nBase\nLt Sternal Border\nRoot Of Neck\nApex\nTricuspid area\nAortic area\nPulmonary area"
+  },
+  {
+   "fieldname": "character",
+   "fieldtype": "Select",
+   "label": "Character",
+   "options": "\nSoft Murmur\nHarsh Murmur\nRumbling Murmur"
+  },
+  {
+   "fieldname": "timing",
+   "fieldtype": "Select",
+   "label": "Timing",
+   "options": "\nSystolic Murmur\nDiastolic Murmur"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Select",
+   "label": "Duration",
+   "options": "\nEarly Systolic Murmur\nPansystolic Murmur\nEjection Midsystolic Murmur\nLate Systolic Murmur\nPre-Systolic Murmur\nEarly Diastolic Murmur\nMid Diastolic Murmur\nSystolic & Diastolic Murmur"
+  },
+  {
+   "fieldname": "column_break_aeku",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "grade",
+   "fieldtype": "Select",
+   "label": "Grade",
+   "options": "\nGrade 1 (Just Audible)\nGrade 2 (Audible)\nGrade 3 (Moderate)\nGrade 4 (Loud)\nGrade 5 (Louder)\nGrade 6 (Loudest)"
+  },
+  {
+   "fieldname": "relation_to_respiration",
+   "fieldtype": "Select",
+   "label": "Relation to Respiration",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "relation_to_posture",
+   "fieldtype": "Select",
+   "label": "Relation to Posture",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "relation_to_exercise",
+   "fieldtype": "Select",
+   "label": "Relation to Exercise",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "associated_trill",
+   "fieldtype": "Select",
+   "label": "Associated Trill",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "additional_sounds_section",
+   "fieldtype": "Section Break",
+   "label": "Additional Sounds"
+  },
+  {
+   "fieldname": "venaus_hum",
+   "fieldtype": "Select",
+   "label": "Venaus Hum",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "arterial_bruit",
+   "fieldtype": "Select",
+   "label": "Arterial Bruit",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "column_break_lrto",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "percardial_rub",
+   "fieldtype": "Select",
+   "label": "Percardial Rub",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "mediastinal_crunch",
+   "fieldtype": "Select",
+   "label": "Mediastinal Crunch",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "local_examination_2_tab",
+   "fieldtype": "Tab Break",
+   "label": "Local Examination 2"
+  },
+  {
+   "fieldname": "general_examination_tab",
+   "fieldtype": "Tab Break",
+   "label": "General Examination"
+  },
+  {
+   "fieldname": "head_section",
+   "fieldtype": "Section Break",
+   "label": "HEAD"
+  },
+  {
+   "fieldname": "face",
+   "fieldtype": "Select",
+   "label": "Face",
+   "options": "\nNormal\nAbnormal"
+  },
+  {
+   "fieldname": "complexion",
+   "fieldtype": "Select",
+   "label": "Complexion",
+   "options": "\nNormal\nAbnormal"
+  },
+  {
+   "fieldname": "eyes",
+   "fieldtype": "Select",
+   "label": "Eyes",
+   "options": "\nNormal\nAbnormal"
+  },
+  {
+   "fieldname": "nose",
+   "fieldtype": "Select",
+   "label": "Nose",
+   "options": "\nNormal\nAbnormal"
+  },
+  {
+   "fieldname": "mouth",
+   "fieldtype": "Select",
+   "label": "Mouth",
+   "options": "\nNormal\nAbnormal"
+  },
+  {
+   "fieldname": "ears",
+   "fieldtype": "Select",
+   "label": "Ears",
+   "options": "\nNormal\nAbnormal"
+  },
+  {
+   "fieldname": "column_break_ubdx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "notes_face",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_complexion",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_eyes",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_nose",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_mouth",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_ears",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "neck_section",
+   "fieldtype": "Section Break",
+   "label": "NECK"
+  },
+  {
+   "fieldname": "dilated_viens",
+   "fieldtype": "Select",
+   "label": "Dilated Viens",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "carotid_artery",
+   "fieldtype": "Select",
+   "label": "Carotid Artery",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "thyroidectomy_scar",
+   "fieldtype": "Select",
+   "label": "Thyroidectomy Scar",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "overacting_of_accessory_muscles",
+   "fieldtype": "Select",
+   "label": "Overacting Of Accessory Muscles",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "column_break_jmgm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "notes_d_v",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_c_a",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_t_scar",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_o_m",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "chest_section",
+   "fieldtype": "Section Break",
+   "label": "CHEST"
+  },
+  {
+   "fieldname": "bibasal_cripitation",
+   "fieldtype": "Select",
+   "label": "Bibasal Cripitation",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "cor_pulmonale",
+   "fieldtype": "Select",
+   "label": "Cor-pulmonale",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "gynecomastia",
+   "fieldtype": "Select",
+   "label": "Gynecomastia",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "column_break_uvln",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "notes_b_c",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_c_p",
+   "fieldtype": "Data",
+   "label": "Notes "
+  },
+  {
+   "fieldname": "notes_gy",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "abdomen_section",
+   "fieldtype": "Section Break",
+   "label": "ABDOMEN"
+  },
+  {
+   "fieldname": "hepatomegaly",
+   "fieldtype": "Select",
+   "label": "Hepatomegaly",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "splenomegaly",
+   "fieldtype": "Select",
+   "label": "Splenomegaly",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "ascites",
+   "fieldtype": "Select",
+   "label": "Ascites",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "column_break_ezfu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "notes_h",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_s_p",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_ascites",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "upper_limbs_section",
+   "fieldtype": "Section Break",
+   "label": "UPPER LIMBS"
+  },
+  {
+   "fieldname": "clubbing",
+   "fieldtype": "Select",
+   "label": "Clubbing",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "sc_nodule",
+   "fieldtype": "Select",
+   "label": "S.C Nodule",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "splinter_hemorrhage",
+   "fieldtype": "Select",
+   "label": "Splinter Hemorrhage",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "osler_nodule",
+   "fieldtype": "Select",
+   "label": "Osler Nodule",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "janway_nodule",
+   "fieldtype": "Select",
+   "label": "Janway Nodule",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "column_break_xkwb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "notes_c",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_s_c_n",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_s_h",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_o_n",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_j_n",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "lower_limbs_section",
+   "fieldtype": "Section Break",
+   "label": "LOWER LIMBS"
+  },
+  {
+   "fieldname": "bilateral_pitting_ll_edema",
+   "fieldtype": "Select",
+   "label": "Bilateral Pitting L.L Edema",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "tender_calf_swelling",
+   "fieldtype": "Select",
+   "label": "Tender Calf Swelling",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "varicose_vein",
+   "fieldtype": "Select",
+   "label": "Varicose Vein",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "ischemic_signs",
+   "fieldtype": "Select",
+   "label": "Ischemic Signs(Coldness-Cyanosis-Colour change-impalpabal Peripheral Pulse ) ",
+   "options": "\nPositive\nNegative"
+  },
+  {
+   "fieldname": "column_break_fczq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "notes_b_e",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_t_c_s",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_v_v",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes_i_s",
+   "fieldtype": "Data",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-09 20:35:25.399079",
+ "modified_by": "Administrator",
+ "module": "Alpha Medical",
+ "name": "Patient Encounter 2",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

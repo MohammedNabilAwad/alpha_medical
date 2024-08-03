@@ -1,0 +1,529 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-05 21:38:57.778899",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "column_break_yhgg",
+  "department",
+  "unite_no",
+  "rome_no",
+  "bed_no",
+  "column_break_baxt",
+  "doa",
+  "date",
+  "day",
+  "time",
+  "column_break_etnn",
+  "pt_name",
+  "age",
+  "sex",
+  "file_no",
+  "diagnosis",
+  "section_break_tihw",
+  "renal_function_test_column",
+  "surea",
+  "screatinine",
+  "uric_acid",
+  "na",
+  "k",
+  "ca",
+  "cl",
+  "ph",
+  "cardiology_test_column",
+  "ldh",
+  "troponin_i",
+  "ck",
+  "ckmb",
+  "ddimer",
+  "lipid_profile_column",
+  "cholestrol",
+  "triglycerdes",
+  "ldl_cholestrol",
+  "hdl_cholestrol",
+  "tghdl_ratio",
+  "ldlhdl_ratio",
+  "non_hdlcholes_ratio",
+  "diapitic_profile_column",
+  "rbs",
+  "fbs",
+  "hba1c",
+  "farritin_assay",
+  "serum_iron",
+  "rheumatic_factor",
+  "hpylori_ang",
+  "complete_blood_count_column",
+  "hb",
+  "pcv",
+  "twbc",
+  "neutrophil",
+  "lymphocyte",
+  "monocyte",
+  "eosinophil",
+  "platelets",
+  "section_break_lsge",
+  "serology_column",
+  "aso",
+  "crp",
+  "coagulation_profile_column",
+  "pt",
+  "ptt",
+  "inr",
+  "thyroid_function_test_column",
+  "ft3",
+  "ft4",
+  "tsh",
+  "trh",
+  "liver_function_test_column",
+  "total_billirubin",
+  "direct_billirubin",
+  "alk_phosphatase",
+  "sgot",
+  "sgpt",
+  "column_break_ewpg",
+  "rbc",
+  "esr_1_hr",
+  "mcv",
+  "mch",
+  "mchc",
+  "rdw"
+ ],
+ "fields": [
+  {
+   "fieldname": "thyroid_function_test_column",
+   "fieldtype": "Column Break",
+   "label": "THYROID FUNCTION TEST"
+  },
+  {
+   "fieldname": "ft3",
+   "fieldtype": "Data",
+   "label": "FT3"
+  },
+  {
+   "fieldname": "liver_function_test_column",
+   "fieldtype": "Column Break",
+   "label": "LIVER FUNCTION TEST"
+  },
+  {
+   "fieldname": "total_billirubin",
+   "fieldtype": "Data",
+   "label": "Total Billirubin"
+  },
+  {
+   "fieldname": "renal_function_test_column",
+   "fieldtype": "Column Break",
+   "label": "RENAL FUNCTION TEST"
+  },
+  {
+   "fieldname": "surea",
+   "fieldtype": "Data",
+   "label": "S.Urea"
+  },
+  {
+   "fieldname": "cardiology_test_column",
+   "fieldtype": "Column Break",
+   "label": "CARDIOLOGY TEST"
+  },
+  {
+   "fieldname": "ldh",
+   "fieldtype": "Data",
+   "label": "LDH"
+  },
+  {
+   "fieldname": "lipid_profile_column",
+   "fieldtype": "Column Break",
+   "label": "LIPID PROFILE"
+  },
+  {
+   "fieldname": "cholestrol",
+   "fieldtype": "Data",
+   "label": "Cholestrol"
+  },
+  {
+   "fieldname": "diapitic_profile_column",
+   "fieldtype": "Column Break",
+   "label": "DIAPITIC PROFILE"
+  },
+  {
+   "fieldname": "rbs",
+   "fieldtype": "Data",
+   "label": "RBS"
+  },
+  {
+   "fieldname": "complete_blood_count_column",
+   "fieldtype": "Column Break",
+   "label": "Complete Blood Count"
+  },
+  {
+   "fieldname": "hb",
+   "fieldtype": "Data",
+   "label": "Hb"
+  },
+  {
+   "fieldname": "section_break_tihw",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "fieldname": "coagulation_profile_column",
+   "fieldtype": "Column Break",
+   "label": "COAGULATION PROFILE"
+  },
+  {
+   "fieldname": "pt",
+   "fieldtype": "Data",
+   "label": "PT"
+  },
+  {
+   "fieldname": "serology_column",
+   "fieldtype": "Column Break",
+   "label": "Serology"
+  },
+  {
+   "fieldname": "aso",
+   "fieldtype": "Data",
+   "label": "A.S.O"
+  },
+  {
+   "fieldname": "pcv",
+   "fieldtype": "Data",
+   "label": "PCV"
+  },
+  {
+   "fieldname": "twbc",
+   "fieldtype": "Data",
+   "label": "T.WBC"
+  },
+  {
+   "fieldname": "neutrophil",
+   "fieldtype": "Data",
+   "label": "Neutrophil"
+  },
+  {
+   "fieldname": "lymphocyte",
+   "fieldtype": "Data",
+   "label": "Lymphocyte"
+  },
+  {
+   "fieldname": "monocyte",
+   "fieldtype": "Data",
+   "label": "Monocyte"
+  },
+  {
+   "fieldname": "eosinophil",
+   "fieldtype": "Data",
+   "label": "Eosinophil"
+  },
+  {
+   "fieldname": "section_break_lsge",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "fieldname": "fbs",
+   "fieldtype": "Data",
+   "label": "FBS"
+  },
+  {
+   "fieldname": "hba1c",
+   "fieldtype": "Data",
+   "label": "HBA1c"
+  },
+  {
+   "fieldname": "farritin_assay",
+   "fieldtype": "Data",
+   "label": "Farritin Assay"
+  },
+  {
+   "fieldname": "serum_iron",
+   "fieldtype": "Data",
+   "label": "Serum Iron"
+  },
+  {
+   "fieldname": "rheumatic_factor",
+   "fieldtype": "Data",
+   "label": "Rheumatic Factor"
+  },
+  {
+   "fieldname": "hpylori_ang",
+   "fieldtype": "Data",
+   "label": "H.Pylori Ang"
+  },
+  {
+   "fieldname": "platelets",
+   "fieldtype": "Data",
+   "label": "Platelets"
+  },
+  {
+   "fieldname": "rbc",
+   "fieldtype": "Data",
+   "label": "RBC"
+  },
+  {
+   "fieldname": "mcv",
+   "fieldtype": "Data",
+   "label": "MCV"
+  },
+  {
+   "fieldname": "mch",
+   "fieldtype": "Data",
+   "label": "MCH"
+  },
+  {
+   "fieldname": "mchc",
+   "fieldtype": "Data",
+   "label": "MCHC"
+  },
+  {
+   "fieldname": "rdw",
+   "fieldtype": "Data",
+   "label": "RDW"
+  },
+  {
+   "fieldname": "esr_1_hr",
+   "fieldtype": "Data",
+   "label": "ESR 1 hr"
+  },
+  {
+   "fieldname": "troponin_i",
+   "fieldtype": "Data",
+   "label": "Troponin I"
+  },
+  {
+   "fieldname": "ck",
+   "fieldtype": "Data",
+   "label": "CK"
+  },
+  {
+   "fieldname": "ckmb",
+   "fieldtype": "Data",
+   "label": "CK.MB"
+  },
+  {
+   "fieldname": "ddimer",
+   "fieldtype": "Data",
+   "label": "D.Dimer"
+  },
+  {
+   "fieldname": "triglycerdes",
+   "fieldtype": "Data",
+   "label": "Triglycerdes"
+  },
+  {
+   "fieldname": "ldl_cholestrol",
+   "fieldtype": "Data",
+   "label": "LDL Cholestrol"
+  },
+  {
+   "fieldname": "hdl_cholestrol",
+   "fieldtype": "Data",
+   "label": "HDL Cholestrol"
+  },
+  {
+   "fieldname": "tghdl_ratio",
+   "fieldtype": "Data",
+   "label": "TG/HDL ratio"
+  },
+  {
+   "fieldname": "ldlhdl_ratio",
+   "fieldtype": "Data",
+   "label": "LDL/HDL ratio"
+  },
+  {
+   "fieldname": "non_hdlcholes_ratio",
+   "fieldtype": "Data",
+   "label": "Non HDL/Choles. Ratio"
+  },
+  {
+   "fieldname": "screatinine",
+   "fieldtype": "Data",
+   "label": "S.Creatinine"
+  },
+  {
+   "fieldname": "uric_acid",
+   "fieldtype": "Data",
+   "label": "Uric Acid"
+  },
+  {
+   "fieldname": "na",
+   "fieldtype": "Data",
+   "label": "Na"
+  },
+  {
+   "fieldname": "k",
+   "fieldtype": "Data",
+   "label": "K"
+  },
+  {
+   "fieldname": "ca",
+   "fieldtype": "Data",
+   "label": "Ca"
+  },
+  {
+   "fieldname": "cl",
+   "fieldtype": "Data",
+   "label": "Cl"
+  },
+  {
+   "fieldname": "ph",
+   "fieldtype": "Data",
+   "label": "Ph"
+  },
+  {
+   "fieldname": "crp",
+   "fieldtype": "Data",
+   "label": "C.R.P"
+  },
+  {
+   "fieldname": "ptt",
+   "fieldtype": "Data",
+   "label": "PTT"
+  },
+  {
+   "fieldname": "inr",
+   "fieldtype": "Data",
+   "label": "INR"
+  },
+  {
+   "fieldname": "ft4",
+   "fieldtype": "Data",
+   "label": "FT4"
+  },
+  {
+   "fieldname": "tsh",
+   "fieldtype": "Data",
+   "label": "TSH"
+  },
+  {
+   "fieldname": "trh",
+   "fieldtype": "Data",
+   "label": "TRH"
+  },
+  {
+   "fieldname": "direct_billirubin",
+   "fieldtype": "Data",
+   "label": "Direct Billirubin"
+  },
+  {
+   "fieldname": "alk_phosphatase",
+   "fieldtype": "Data",
+   "label": "Alk. Phosphatase"
+  },
+  {
+   "fieldname": "sgot",
+   "fieldtype": "Data",
+   "label": "SGOT"
+  },
+  {
+   "fieldname": "sgpt",
+   "fieldtype": "Data",
+   "label": "SGPT"
+  },
+  {
+   "fieldname": "pt_name",
+   "fieldtype": "Data",
+   "label": "PT NAME"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "AGE"
+  },
+  {
+   "fieldname": "file_no",
+   "fieldtype": "Data",
+   "label": "FILE NO"
+  },
+  {
+   "fieldname": "diagnosis",
+   "fieldtype": "Data",
+   "label": "DIAGNOSIS"
+  },
+  {
+   "fieldname": "column_break_baxt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "doa",
+   "fieldtype": "Date",
+   "label": "D.O.A"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "DATE"
+  },
+  {
+   "fieldname": "day",
+   "fieldtype": "Data",
+   "label": "DAY"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Datetime",
+   "label": "TIME"
+  },
+  {
+   "fieldname": "column_break_yhgg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Datetime",
+   "label": "DEPARTMENT"
+  },
+  {
+   "fieldname": "unite_no",
+   "fieldtype": "Float",
+   "label": "UNITE NO"
+  },
+  {
+   "fieldname": "rome_no",
+   "fieldtype": "Float",
+   "label": "ROME NO"
+  },
+  {
+   "fieldname": "bed_no",
+   "fieldtype": "Float",
+   "label": "BED NO"
+  },
+  {
+   "fieldname": "sex",
+   "fieldtype": "Data",
+   "label": "SEX"
+  },
+  {
+   "fieldname": "column_break_etnn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ewpg",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-06 01:03:57.441313",
+ "modified_by": "Administrator",
+ "module": "Alpha Medical",
+ "name": "BLOOD TEST",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
